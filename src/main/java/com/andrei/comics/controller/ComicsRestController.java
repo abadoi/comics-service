@@ -36,7 +36,7 @@ public class ComicsRestController {
         List<Comic> pdlComics = xkcdComicsAPIService.getPDLComics();
         results.addAll(pdlComics);
 
-        // sort in ascending order by year
+        // sort in descending order by year
         Collections.sort(results, new Comparator<Comic>(){
             public int compare(Comic c1, Comic c2) {
                 return  (int) ( c2.getYear() - c1.getYear() );
@@ -45,7 +45,6 @@ public class ComicsRestController {
 
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         String json = gson.toJson(results);
-//        JSONArray json2 = new JSONArray(json); // Convert text to object
 
         return json;
     }
