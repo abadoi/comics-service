@@ -1,7 +1,7 @@
-package com.codecool.comics.service;
+package com.andrei.comics.service;
 
-import com.codecool.comics.Utils;
-import com.codecool.comics.model.Comic;
+import com.andrei.comics.Utils;
+import com.andrei.comics.model.Comic;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import org.json.JSONArray;

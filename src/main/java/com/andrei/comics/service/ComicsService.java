@@ -1,6 +1,6 @@
-package com.codecool.comics.service;
+package com.andrei.comics.service;
 
-import com.codecool.comics.model.Comic;
+import com.andrei.comics.model.Comic;
 
 import java.util.List;
 

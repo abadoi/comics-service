@@ -1,4 +1,4 @@
-package com.codecool.comics;
+package com.andrei.comics;
 
 import java.io.BufferedReader;
 import java.io.IOException;

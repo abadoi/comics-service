@@ -1,7 +1,7 @@
-package com.codecool.comics.controller;
+package com.andrei.comics.controller;
 
-import com.codecool.comics.model.Comic;
-import com.codecool.comics.service.ComicsService;
+import com.andrei.comics.model.Comic;
+import com.andrei.comics.service.ComicsService;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import org.springframework.beans.factory.annotation.Autowired;

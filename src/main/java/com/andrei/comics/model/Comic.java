@@ -1,8 +1,7 @@
-package com.codecool.comics.model;
+package com.andrei.comics.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
-import java.util.Date;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Comic {
